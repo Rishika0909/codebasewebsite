@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+.mainlayout {
+  width: 100%;
+}
+
+.backgroundimage {
+  width: 100%;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/AdobeStock_600732801_Preview-optimised-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.logo img {
+  width: 130px;
+  height: 30px;
+  margin: 0 30px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.menubar {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+.hire {
+  border: 1px solid #4e0fea;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #4e0fea;
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.page1 {
+  padding: 80px 150px;
+}
+.page1content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  h1 {
+    width: 800px;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  p {
+    width: 650px;
+  }
+}
+.hiredeveloper {
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: none;
+  color: white;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+/* screen2 */
+
+.page2content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: black;
+  gap: 60px;
+}
+
+.page2content h2 {
+  text-align: center;
+  color: white;
+}
+.companylogos ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.companylogos img {
+  width: 160px;
+  height: 40px;
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.box {
+  border-radius: 10px;
+  background-color: #202020;
+
+  width: 45%;
+
+  height: 400px;
+  color: #b9b9b9;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.box i {
+  color: #5974eb;
+}
+.namealign {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  gap: 20px;
+}
+
+/* screen3 */
+.page3 {
+  background-image: url("images/successstories.webp");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px 200px;
+}
+.page3content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.page3content h1 {
+  font-size: 50px;
+}
+.page3content h3 {
+  width: 500px;
+}
+.choosebutton {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+/* screen3 */
+/* commitment box  */
+.page4 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.commitbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #1b2570;
+  padding: 50px;
+  width: 90%;
+  height: 300px;
+  color: white;
+}
+
+.innerboxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+.innerbox {
+  text-align: center;
+}
+.innerbox h3 {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0c0e2d;
+}
+.innerbox p {
+  padding-top: 30px;
+}
+
+/* screen4*/
+.page5 {
+  padding: 80px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.page5content {
+  text-align: left;
+}
+.page5content h1 {
+  font-size: 50px;
+  width: 900px;
+}
+
+.hireboxes {
+  display: flex;
+  gap: 30px;
+}
+.hirebox h3 {
+  width: 100%;
+  font-weight: bolder;
+}
+.hirebox p {
+  width: 100%;
+  height: 100px;
+}
+.hirebox img {
+  margin-top: 70px;
+  width: 30px;
+  height: 30px;
+}
+
+/* joinus */
+
+.joinus {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 100px 130px;
+}
+
+.joincontent {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left side */
+
+.jointext {
+  text-align: left;
+}
+
+.jointext h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.jointext h2 {
+  font-size: 27px;
+}
+
+/* Right side */
+
+.joinbuttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Both buttons */
+
+.applybutton .hirebutton {
+  text-decoration: none;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.applybutton {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+
+.hirebutton {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+   padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0 134px 40px;
+}
+
+.footertop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.footerlogo img {
+  width: 155px;
+  height: auto;
+}
+
+.footerlinks {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.footerlinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footerlinks .contactlink {
+  color: #5974eb;
+}
+
+.footerline {
+  width: 100%;
+  height: 1px;
+  background-color: #888;
+}
+
+.socialicons {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-top: 35px;
+}
+
+.socialicons a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.footerbottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.footerbottom p {
+  font-size: 18px;
+  color: white;
+}
